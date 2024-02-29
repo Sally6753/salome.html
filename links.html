@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 10px;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to our Website!</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our website! where we will expore the wonders of technology ,the beauty of our nature and lern more about Foods:</p>
+        <a href="https://en.wikipedia.org/wiki/Technology" target="_technology">
+            <img src="images/technology.jpg" alt="Technology Image" width=700, height=700>
+        
+        </a>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="https://www.wwf.org.uk/what-we-do/valuing-nature" target="_lets value our nature">
+                <img src="images/Nature.jpg" alt="Natural-light">
+            </a>
+            <a href="https://www.imperial.ac.uk/stories/protecting-nature/" target="_how can we protect our natural world">
+                <img src="images/nature2.jpg" alt="trees">
+            </a>
+            <a href="https://jamoroki.com/components-of-the-environment/" target="_components of nature">
+                <img src="images/nature3.jpg" alt="insects">
+            </a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <div class="menu">
+            <div>
+                <a href="https://www.betterhealth.vic.gov.au/health/healthyliving/cereals-and-wholegrain-foods" target="_cereals health benefits">
+                    <img src="images/Cereals.jpg" alt="Cereals">
+                </a>
+                <p><a href="https://www.betterhealth.vic.gov.au/health/healthyliving/cereals-and-wholegrain-foods" target="_cereals health benefits">Cereals</a></p>
+            </div>
+            <div>
+                <a href="https://www.britannica.com/topic/fast-food" target="_fast food critisim and response">
+                    <img src="images/fastfoods.jpg" alt="fastfoods">
+                </a>
+                <p><a href="https://www.britannica.com/topic/fast-food" target="_fast food critisim and response">Fast Foods</a></p>
+            </div>
+            <div>
+                <a href="https://www.medicalnewstoday.com/articles/324431" target="_healthiest fruits">
+                    <img src="images/fruits.jpg" alt="Fruits">
+                </a>
+                <p><a href="https://www.medicalnewstoday.com/articles/324431" target="_healthiest fruits">Fruits</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Image Links</p>
+    </footer>
+</body>
+
+</html>
